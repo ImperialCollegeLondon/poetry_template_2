@@ -14,7 +14,7 @@ To use this repository as a template for your own application:
    - `pyproject.toml`
    - `tests/test_myproject.py`
    - `setup.cfg`
-   -  Rename `myproject` directory
+   - Rename `myproject` directory
 1. Set up the virtual environment:
 
    ```bash
@@ -36,7 +36,7 @@ To use this repository as a template for your own application:
 1. Run the main app:
 
    ```bash
-   python 
+   python
    ```
 
 1. Run the tests:
