@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "MyProject"
+version = "0.1.0"
+description = ""
+authors = ["Jane Doe <jane_doe@some_email.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+pytest-cov = "^3.0.0"
+pytest-flake8 = "^1.1.1"
+pytest-mypy = "^0.9.1"
+pytest-mock = "^3.7.0"
+isort = "^5.10.1"
+pre-commit = "^2.18.1"
+black = "^22.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
