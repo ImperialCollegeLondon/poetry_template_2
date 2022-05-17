@@ -36,7 +36,7 @@ To use this repository as a template for your own application:
 1. Run the main app:
 
    ```bash
-   python
+   python -m myproject
    ```
 
 1. Run the tests:
