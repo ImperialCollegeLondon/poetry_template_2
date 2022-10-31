@@ -2,7 +2,9 @@
 name = "MyProject"
 version = "0.1.0"
 description = ""
-authors = ["Jane Doe <jane_doe@some_email.com>"]
+authors = [
+    { name = "Jane Doe", email = "jane_doe@some_email.com" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
