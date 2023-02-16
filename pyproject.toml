@@ -16,7 +16,7 @@ pytest-mock = "^3.7.0"
 isort = "^5.10.1"
 pre-commit = "^3.0.4"
 black = "^23.1.0"
-flake8 = "^4.0.1"
+flake8 = "^6.0.0"
 flake8-docstrings = "^1.6.0"
 
 [tool.mypy]
