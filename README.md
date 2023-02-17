@@ -13,7 +13,6 @@ To use this repository as a template for your own application:
 5. Replace instances of `myproject` with your own application name. Edit:
    - `pyproject.toml`
    - `tests/test_myproject.py`
-   - `setup.cfg`
    - Rename `myproject` directory
 6. Set up the virtual environment:
 
