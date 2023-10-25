@@ -1,6 +1,6 @@
 name: Test and build
 
-on: [push, pull_request, release]
+on: [push, pull_request, workflow_call]
 
 jobs:
   qa:
