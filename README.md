@@ -4,6 +4,8 @@
 
 This is a minimal Python 3.11 application that uses [poetry](https://python-poetry.org) for packaging and dependency management. It also provides [pre-commit](https://pre-commit.com/) hooks (for [isort](https://pycqa.github.io/isort/), [Black](https://black.readthedocs.io/en/stable/), [Flake8](https://flake8.pycqa.org/en/latest/) and [mypy](https://mypy.readthedocs.io/en/stable/)) and automated tests using [pytest](https://pytest.org/) and [GitHub Actions](https://github.com/features/actions). Pre-commit hooks are automatically kept updated with a dedicated GitHub Action, this can be removed and replace with [pre-commit.ci](https://pre-commit.ci) if using an public repo. It was developed by the [Imperial College Research Computing Service](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/).
 
+## Usage
+
 To use this repository as a template for your own application:
 
 1. [Download and install Poetry](https://python-poetry.org/docs/#installation) following the instructions for your OS.
@@ -43,3 +45,8 @@ To use this repository as a template for your own application:
    ```bash
    pytest
    ```
+
+### Publishing
+
+The GitHub workflow includes an action to publish on release.
+To run this action, uncomment the commented portion of `publish.yml`, and modify the steps for the desired behaviour (ie. publishing a Docker image, publishing to PyPI, deploying documentation etc.)
