@@ -1,13 +1,9 @@
 {
-    "python.formatting.provider": "black",
     "[python]": {
         "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.black-formatter"
     },
     "editor.rulers": [88],
-
-    // Enable relevant linters
-    "python.linting.flake8Enabled": true,
-    "python.linting.mypyEnabled": true,
 
     // --no-cov needed so that breakpoints work: https://github.com/microsoft/vscode-python/issues/693
     "python.testing.pytestArgs": ["--no-cov"],
