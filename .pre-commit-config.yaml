@@ -10,6 +10,13 @@ repos:
     rev: "0.27.3"
     hooks:
       - id: check-github-workflows
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v3.1.0
+    hooks:
+      - id: prettier
+        # Don't format markdown files as it may conflict with markdownlint
+        exclude_types:
+          - markdown
   - repo: https://github.com/asottile/pyupgrade
     rev: v3.15.0
     hooks:
