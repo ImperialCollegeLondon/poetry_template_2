@@ -3,6 +3,9 @@
         "ms-python.black-formatter",
         "ms-python.flake8",
         "ms-python.mypy-type-checker",
-        "ms-python.python"
+        "ms-python.python",
+        "editorconfig.editorconfig",
+        "esbenp.prettier-vscode",
+        "davidanson.vscode-markdownlint"
     ]
 }

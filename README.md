@@ -42,9 +42,9 @@ To use this repository as a template for your own application:
 
 10. Run the tests:
 
-   ```bash
-   pytest
-   ```
+    ```bash
+    pytest
+    ```
 
 ### Publishing
 
