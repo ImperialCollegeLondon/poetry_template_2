@@ -14,9 +14,6 @@ repos:
     rev: v3.1.0
     hooks:
       - id: prettier
-        # Don't format markdown files as it may conflict with markdownlint
-        exclude_types:
-          - markdown
   - repo: https://github.com/asottile/pyupgrade
     rev: v3.15.0
     hooks:
@@ -48,4 +45,3 @@ repos:
     rev: v0.37.0
     hooks:
       - id: markdownlint-fix
-        args: ["--disable", "MD013", "--"]
