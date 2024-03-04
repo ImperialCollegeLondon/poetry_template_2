@@ -7,7 +7,7 @@ repos:
       - id: trailing-whitespace
       - id: end-of-file-fixer
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: "0.27.3"
+    rev: "0.28.0"
     hooks:
       - id: check-github-workflows
   - repo: https://github.com/pre-commit/mirrors-prettier
@@ -15,12 +15,12 @@ repos:
     hooks:
       - id: prettier
   - repo: https://github.com/asottile/pyupgrade
-    rev: v3.15.0
+    rev: v3.15.1
     hooks:
       - id: pyupgrade
         args: ["--py311-plus"]
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: "v0.1.11"
+    rev: "v0.3.0"
     hooks:
       - id: ruff
         args: [--fix, --exit-non-zero-on-fix]
@@ -29,6 +29,6 @@ repos:
     hooks:
       - id: mypy
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.38.0
+    rev: v0.39.0
     hooks:
       - id: markdownlint-fix
