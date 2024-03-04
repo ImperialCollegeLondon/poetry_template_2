@@ -34,11 +34,11 @@ addopts = "-v --mypy -p no:warnings --cov=myproject --cov-report=html --doctest-
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
-[tool.ruff]
+[tool.ruff.lint]
 select = ["D", "E", "F", "I"] # pydocstyle, pycodestyle, Pyflakes, isort
 
-[tool.ruff.per-file-ignores]
+[tool.ruff.lint.per-file-ignores]
 "tests/*" = ["D100", "D104"] # Missing docstring in public module, Missing docstring in public package
 
-[tool.ruff.pydocstyle]
+[tool.ruff.lint.pydocstyle]
 convention = "google"
