@@ -1,4 +1,5 @@
 """Tests for the main module."""
+
 from myproject import __version__
 
 
