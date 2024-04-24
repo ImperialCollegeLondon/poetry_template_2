@@ -14,6 +14,9 @@ repos:
     rev: v4.0.0-alpha.8
     hooks:
       - id: prettier
+        # Prettier supports many other file formats (e.g., JavaScript, HTML; see
+        # https://prettier.io for list). Add other types here.
+        types_or: [yaml, json]
   - repo: https://github.com/asottile/pyupgrade
     rev: v3.15.1
     hooks:
