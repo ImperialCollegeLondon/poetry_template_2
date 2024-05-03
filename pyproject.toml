@@ -5,7 +5,7 @@ description = ""
 authors = ["Jane Doe <jane_doe@some_email.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.12"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.0"
@@ -35,7 +35,7 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.ruff]
-target-version = "py311"
+target-version = "py312"
 
 [tool.ruff.lint]
 select = [
